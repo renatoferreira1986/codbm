@@ -4,10 +4,6 @@ angular.module('starter.services', ['starter.config'])
 		var self = this;
 		self.name= "CODBM";
 		
-		
-		self.calculatePace= function(speed, returnMili) {
-			
-		};
 
       self.showAlert = function(message) {
 			 var alertPopup = $ionicPopup.alert({

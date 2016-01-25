@@ -1,6 +1,7 @@
 angular.module('starter.config', [])
 .constant('DB_CONFIG', {
     name: 'cod_bm',
+	version: '20160125-2035',
     tables: [
 		{
          name: 'type',
